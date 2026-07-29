@@ -8,8 +8,8 @@
   "allAtoms": [
     {
       "atomType": "Output",
-      "x": 0.98,
-      "y": 0.5,
+      "x": 0.972936400541272,
+      "y": 0.5523255813953488,
       "uniqueID": "id-2",
       "ioValues": [
         {
@@ -20,8 +20,8 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.16305818673883626,
-      "y": 0.7180232558139534,
+      "x": 0.16170500676589986,
+      "y": 0.869186046511628,
       "uniqueID": "id-8",
       "ioValues": [
         {
@@ -36,8 +36,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.3565629228687415,
-      "y": 0.5552325581395349,
+      "x": 0.38903924221921515,
+      "y": 0.6744186046511628,
       "uniqueID": "id-12",
       "ioValues": [
         {
@@ -52,20 +52,21 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.2645502645502646,
-      "y": 0.35,
+      "x": 0.14817320703653586,
+      "y": 0.3284883720930233,
       "uniqueID": "id-16",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 25
+          "ioValue": 35,
+          "currentEquation": "35"
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.2997293640054127,
-      "y": 0.23255813953488372,
+      "x": 0.40595399188092013,
+      "y": 0.3575581395348837,
       "uniqueID": "id-19",
       "ioValues": [
         {
@@ -80,8 +81,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.543978349120433,
-      "y": 0.47965116279069764,
+      "x": 0.584573748308525,
+      "y": 0.48255813953488375,
       "uniqueID": "id-23",
       "ioValues": [
         {
@@ -96,8 +97,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.7841677943166441,
-      "y": 0.7674418604651163,
+      "x": 0.8004059539918809,
+      "y": 0.7587209302325582,
       "uniqueID": "id-27",
       "ioValues": [
         {
@@ -123,31 +124,6 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "13mm_nut_cover_"
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.7695729537366548,
-      "y": 0.5970149253731343,
-      "uniqueID": "id-49",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 180,
-          "currentEquation": "180"
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
-      ]
     }
   ],
   "allConnectors": [
