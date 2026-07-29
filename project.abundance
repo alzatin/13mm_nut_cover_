@@ -20,8 +20,8 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.16305818673883626,
-      "y": 0.7180232558139534,
+      "x": 0.3214285714285714,
+      "y": 0.8027777777777778,
       "uniqueID": "id-8",
       "ioValues": [
         {
@@ -36,8 +36,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.3565629228687415,
-      "y": 0.5552325581395349,
+      "x": 0.4880952380952381,
+      "y": 0.7805555555555554,
       "uniqueID": "id-12",
       "ioValues": [
         {
@@ -64,8 +64,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.2997293640054127,
-      "y": 0.23255813953488372,
+      "x": 0.35912698412698413,
+      "y": 0.35833333333333334,
       "uniqueID": "id-19",
       "ioValues": [
         {
@@ -80,8 +80,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.543978349120433,
-      "y": 0.47965116279069764,
+      "x": 0.5205026455026455,
+      "y": 0.3194444444444444,
       "uniqueID": "id-23",
       "ioValues": [
         {
@@ -96,8 +96,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.7841677943166441,
-      "y": 0.7674418604651163,
+      "x": 0.6468253968253969,
+      "y": 0.7305555555555556,
       "uniqueID": "id-27",
       "ioValues": [
         {
@@ -123,31 +123,6 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "13mm_nut_cover_"
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.7695729537366548,
-      "y": 0.5970149253731343,
-      "uniqueID": "id-49",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 180,
-          "currentEquation": "180"
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -172,14 +147,14 @@
       "ap2ID": "id-23"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-23",
-      "ap2ID": "id-27"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-23",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-23",
+      "ap2ID": "id-27"
     }
   ],
   "unitsKey": "MM",
