@@ -8,6 +8,10 @@
     {
       "name": "Input",
       "ioValue": 10
+    },
+    {
+      "name": "Input_1",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -33,6 +37,13 @@
           "ioValue": 7
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
+      "uniqueID": "id-123",
+      "name": "Input_1"
     },
     {
       "atomType": "Circle",
