@@ -4,8 +4,20 @@
   "y": 0,
   "uniqueID": "id-1",
   "name": "13mm_nut_cover_",
+  "ioValues": [
+    {
+      "name": "Input",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "id-119"
+    },
     {
       "atomType": "Extrude",
       "x": 0.4536082474226804,
