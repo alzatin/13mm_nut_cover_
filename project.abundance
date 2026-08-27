@@ -20,7 +20,8 @@
       "atomType": "Input",
       "x": 0.025384615384615384,
       "y": 0.15384615384615385,
-      "uniqueID": "id-119"
+      "uniqueID": "id-119",
+      "type": "number"
     },
     {
       "atomType": "Extrude",
@@ -133,7 +134,7 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7638623326959847,
+      "x": 0.7675401521555368,
       "y": 0.16049382716049382,
       "uniqueID": "id-69",
       "name": "Scale",
@@ -144,7 +145,7 @@
         },
         {
           "name": "Scale Factor",
-          "ioValue": 10
+          "ioValue": 9
         }
       ],
       "topLevel": false,
