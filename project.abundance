@@ -46,7 +46,8 @@
         },
         {
           "name": "height",
-          "ioValue": 9
+          "ioValue": 9,
+          "currentEquation": "9"
         }
       ]
     },
