@@ -4,53 +4,29 @@
   "y": 0,
   "uniqueID": "id-1",
   "name": "13mm_nut_cover_",
+  "ioValues": [
+    {
+      "name": "Input",
+      "ioValue": 10
+    },
+    {
+      "name": "Input_1",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
-      "atomType": "CutLayout",
-      "x": 0.7145454545454546,
-      "y": 0.8125,
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
       "uniqueID": "id-119",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 2438
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1219
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 12
-        }
-      ],
-      "placements": [
-        [
-          {
-            "id": 0,
-            "rotate": 210,
-            "translate": {
-              "x": 20.17288589477539,
-              "y": 20.17288589477539
-            }
-          }
-        ]
-      ]
+      "type": "number"
     },
     {
       "atomType": "Extrude",
-      "x": 0.4572727272727273,
-      "y": 0.6160714285714285,
+      "x": 0.4536082474226804,
+      "y": 0.5891238670694864,
       "uniqueID": "id-12",
       "ioValues": [
         {
@@ -59,19 +35,26 @@
         },
         {
           "name": "height",
-          "ioValue": 8
+          "ioValue": 7
         }
       ]
     },
     {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
+      "uniqueID": "id-123",
+      "name": "Input_1"
+    },
+    {
       "atomType": "Circle",
-      "x": 0.21668264621284752,
-      "y": 0.5582089552238806,
+      "x": 0.21363636363636362,
+      "y": 0.5565476190476191,
       "uniqueID": "id-16",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 30
+          "ioValue": 28
         }
       ]
     },
@@ -151,7 +134,7 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7638623326959847,
+      "x": 0.7675401521555368,
       "y": 0.16049382716049382,
       "uniqueID": "id-69",
       "name": "Scale",
@@ -162,7 +145,7 @@
         },
         {
           "name": "Scale Factor",
-          "ioValue": 10
+          "ioValue": 9
         }
       ],
       "topLevel": false,
@@ -427,11 +410,6 @@
       "ap2Name": "Geometry",
       "ap1ID": "id-23",
       "ap2ID": "id-69"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-23",
-      "ap2ID": "id-119"
     },
     {
       "ap2Name": "geometry",
