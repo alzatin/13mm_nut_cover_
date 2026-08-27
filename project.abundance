@@ -7,6 +7,47 @@
   "topLevel": true,
   "allAtoms": [
     {
+      "atomType": "CutLayout",
+      "x": 0.7145454545454546,
+      "y": 0.8125,
+      "uniqueID": "id-119",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 0,
+            "rotate": 210,
+            "translate": {
+              "x": 20.17288589477539,
+              "y": 20.17288589477539
+            }
+          }
+        ]
+      ]
+    },
+    {
       "atomType": "Extrude",
       "x": 0.4572727272727273,
       "y": 0.6160714285714285,
@@ -386,6 +427,11 @@
       "ap2Name": "Geometry",
       "ap1ID": "id-23",
       "ap2ID": "id-69"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-23",
+      "ap2ID": "id-119"
     },
     {
       "ap2Name": "geometry",
