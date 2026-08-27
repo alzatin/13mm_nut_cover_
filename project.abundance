@@ -7,34 +7,6 @@
   "topLevel": true,
   "allAtoms": [
     {
-      "atomType": "Output",
-      "x": 0.98,
-      "y": 0.5,
-      "uniqueID": "id-2",
-      "ioValues": [
-        {
-          "name": "number or geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ]
-    },
-    {
-      "atomType": "RegularPolygon",
-      "x": 0.32214765100671144,
-      "y": 0.8328358208955224,
-      "uniqueID": "id-8",
-      "ioValues": [
-        {
-          "name": "number of sides",
-          "ioValue": 6
-        },
-        {
-          "name": "diameter",
-          "ioValue": 15
-        }
-      ]
-    },
-    {
       "atomType": "Extrude",
       "x": 0.4536082474226804,
       "y": 0.5891238670694864,
@@ -74,7 +46,19 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 9
+        }
+      ]
+    },
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-2",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
     },
@@ -123,6 +107,22 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "13mm_nut_cover_"
+    },
+    {
+      "atomType": "RegularPolygon",
+      "x": 0.32214765100671144,
+      "y": 0.8328358208955224,
+      "uniqueID": "id-8",
+      "ioValues": [
+        {
+          "name": "number of sides",
+          "ioValue": 6
+        },
+        {
+          "name": "diameter",
+          "ioValue": 15
+        }
+      ]
     }
   ],
   "allConnectors": [
