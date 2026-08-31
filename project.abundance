@@ -74,8 +74,7 @@
         },
         {
           "name": "x-axis degrees",
-          "ioValue": 90,
-          "currentEquation": "90"
+          "ioValue": 90
         },
         {
           "name": "y-axis degrees",
@@ -433,6 +432,11 @@
       "ap2ID": "id-19"
     },
     {
+      "ap2Name": "Geometry",
+      "ap1ID": "id-177",
+      "ap2ID": "id-69"
+    },
+    {
       "ap2Name": "retain",
       "ap1ID": "id-19",
       "ap2ID": "id-23"
@@ -456,11 +460,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-69",
       "ap2ID": "id-2"
-    },
-    {
-      "ap2Name": "Geometry",
-      "ap1ID": "id-177",
-      "ap2ID": "id-69"
     }
   ],
   "unitsKey": "MM",
