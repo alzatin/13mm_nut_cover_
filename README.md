@@ -2,7 +2,7 @@
 
 # 13mm_nut_cover_
 
-![](/project.svg)
+![](/project.png)
 
 ## Inputs
 
