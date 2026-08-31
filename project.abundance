@@ -59,6 +59,30 @@
       ]
     },
     {
+      "atomType": "Text",
+      "x": 0.6185365853658537,
+      "y": 0.8055555555555556,
+      "uniqueID": "id-177",
+      "ioValues": [
+        {
+          "name": "Font Size",
+          "ioValue": 10
+        },
+        {
+          "name": "Text",
+          "ioValue": "Lorem Ipsum",
+          "currentEquation": "Lorem Ipsum"
+        },
+        {
+          "name": "Font Family",
+          "ioValue": "ROBOTO",
+          "currentEquation": "ROBOTO"
+        }
+      ],
+      "fontFamily": "ROBOTO",
+      "selectedFontIndex": 0
+    },
+    {
       "atomType": "Extrude",
       "x": 0.32122370936902483,
       "y": 0.28703703703703703,
