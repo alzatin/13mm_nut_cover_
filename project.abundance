@@ -8,8 +8,8 @@
   "allAtoms": [
     {
       "atomType": "Extrude",
-      "x": 0.4880952380952381,
-      "y": 0.7805555555555554,
+      "x": 0.43902439024390244,
+      "y": 0.5617283950617284,
       "uniqueID": "id-12",
       "ioValues": [
         {
@@ -110,13 +110,13 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.3214285714285714,
-      "y": 0.8027777777777778,
+      "x": 0.2253658536585366,
+      "y": 0.7685185185185185,
       "uniqueID": "id-8",
       "ioValues": [
         {
           "name": "number of sides",
-          "ioValue": 6
+          "ioValue": 7
         },
         {
           "name": "diameter",
@@ -126,11 +126,6 @@
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-8",
-      "ap2ID": "id-12"
-    },
     {
       "ap2Name": "remove",
       "ap1ID": "id-12",
@@ -155,6 +150,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-23",
       "ap2ID": "id-27"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-8",
+      "ap2ID": "id-12"
     }
   ],
   "unitsKey": "MM",
