@@ -4,12 +4,6 @@
 
 ![](/project.png)
 
-## Inputs
-
-- **Input** (number)
-- **Input_1** (number)
-
-
 
 
  
