@@ -4,18 +4,12 @@
   "y": 0,
   "uniqueID": "id-1",
   "name": "13mm_nut_cover_",
-  "ioValues": [
-    {
-      "name": "test",
-      "ioValue": 10
-    }
-  ],
   "topLevel": true,
   "allAtoms": [
     {
       "atomType": "Extrude",
-      "x": 0.4880952380952381,
-      "y": 0.7805555555555554,
+      "x": 0.5,
+      "y": 0.8,
       "uniqueID": "id-12",
       "ioValues": [
         {
@@ -30,8 +24,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.2645502645502646,
-      "y": 0.35,
+      "x": 0.3,
+      "y": 0.4,
       "uniqueID": "id-16",
       "ioValues": [
         {
@@ -42,8 +36,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.35912698412698413,
-      "y": 0.35833333333333334,
+      "x": 0.4,
+      "y": 0.4,
       "uniqueID": "id-19",
       "ioValues": [
         {
@@ -58,7 +52,7 @@
     },
     {
       "atomType": "Output",
-      "x": 0.98,
+      "x": 1,
       "y": 0.5,
       "uniqueID": "id-2",
       "ioValues": [
@@ -70,8 +64,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5205026455026455,
-      "y": 0.3194444444444444,
+      "x": 0.5,
+      "y": 0.3,
       "uniqueID": "id-23",
       "ioValues": [
         {
@@ -86,8 +80,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.6468253968253969,
-      "y": 0.7305555555555556,
+      "x": 0.6,
+      "y": 0.7,
       "uniqueID": "id-27",
       "ioValues": [
         {
@@ -116,8 +110,8 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.3214285714285714,
-      "y": 0.8027777777777778,
+      "x": 0.3,
+      "y": 0.8,
       "uniqueID": "id-8",
       "ioValues": [
         {
